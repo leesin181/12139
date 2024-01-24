@@ -3,7 +3,7 @@
         body {  
             background-color: #FAEBD7; /* 淡黄色背景 */  
          text-align: center;
-          { 
+            }
         .nav {  
             text-align: center; /* 居中导航栏 */  
         }  
