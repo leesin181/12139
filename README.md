@@ -3,6 +3,9 @@
         body {  
             background-color: #FAEBD7; /* 淡黄色背景 */  
         }  
+        .col-md-3{
+    text-align: center;
+}
         .nav {  
             text-align: center; /* 居中导航栏 */  
         }  
@@ -10,6 +13,9 @@
             display: inline-block;  
             margin: 0 10px;  
         }  
+        .col-md-3{
+    text-align: center;
+}
     </style>  
 </head>  
 <body>  
