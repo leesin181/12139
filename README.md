@@ -69,7 +69,7 @@
         text-align: center;
     }  
     .section-title {  
-        margin-left: 50px; /* 添加适当的左外边距来移动字体 */  
+        margin-left: 100px; /* 添加适当的左外边距来移动字体 */  
     }  
 </style>
 </head>  
