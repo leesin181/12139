@@ -1,40 +1,57 @@
 <head>  
+    <meta charset="UTF-8">  
+    <title>self-introduction</title>  
     <style>  
         body {  
-            background-color: #FAEBD7; /* 淡黄色背景 */  
-            margin: 0;  
-            padding: 0;  
+            font: 20px sans-serif;  
+        }  
+        .navbar {  
+            margin: 20px;  
+        }  
+        .navbar a {  
+            margin-right: 20px;  
         }  
         .container {  
             display: flex;  
-            justify-content: center;  
+            flex-direction: column;  
             align-items: center;  
-            height: 100vh; /* 使容器占据整个视口高度 */  
         }  
-        .nav {  
-            text-align: center; /* 居中导航栏 */  
+        .section-title {  
+            text-align: center;  
+            margin-bottom: 30px;  
         }  
-        .nav li {  
-            display: inline-block;  
-            margin: 0 10px;  
+        .service {  
+            display: flex;  
+            flex-direction: column;  
+            align-items: center;  
+            padding: 20px;  
+            border: 1px solid #ccc;  
+            border-radius: 5px;  
         }  
-        h1 {  
-            margin: 0; /* 去掉标题的默认边距 */  
+        .fa {  
+            font-size: 20px;  
+            margin-bottom: 10px;  
         }  
         img {  
-            width: 200px; /* 设置图片宽度为200像素 */  
-            height: auto; /* 保持图片的原始纵横比 */  
+            width: 150px;  
+            height: 150px;  
+            object-fit: cover;  
+            margin-bottom: 10px; /* Add some margin to separate the image from the text */  
         }  
+        p {  
+            margin-bottom: 10px; /* Add some margin between paragraphs */  
+        }  
+        body {  
+    background-color: #ebe0cc; /* 橘色背景 */  
+}
     </style>  
 </head>  
 <body>  
-    <div class="container">  
-        <ul class="nav">  
-            <li><a href="https://leesin181.github.io/12139/">page1</a></li>  
-            <li><a href="https://leesin181.github.io/121310/">page2</a></li>  
-            <li><a href="https://leesin181.github.io/12137/">page3</a></li>  
-        </ul>  
-        </div>  
+    <div class="navbar">  
+            <a href=" https://railgu1n.github.io/452q/">Page 1</a> |  
+        <a href="https://railgu1n.github.io/452w/">Page 2</a> |  
+        <a href="https://railgu1n.github.io/452r/">Page 3</a>   
+    </div>  
     <div class="container">  
         <div class="section-title center">  
             <h2>Basic Information</h2>  
@@ -46,8 +63,8 @@
                 <i class="fa fa-laptop"></i>  
                 <h4><strong>Personal Information</strong></h4>  
                 <div style="display: flex; align-items: center;"> <!-- Add a container for the image and text -->  
-                    <img src="https://i.postimg.cc/9fF6xG2w/be087c67f0cbc85bca3326c1301f019.jpg" alt=""> <!-- Move the image to the container -->  
-                    <img src="https://i.postimg.cc/yd5C3Wwg/48f0dd228d1f2f56792ec5b0779611b.jpg" alt=""> 
+                    <img src="https://i.postimg.cc/QN9RBNck/202322.jpg" alt=""> <!-- Move the image to the container -->  
+                    <img src="https://i.postimg.cc/rp3nL0Zb/2e6646c79edb7e62ea2e7a42cf15381.jpg" alt=""> 
                 </div>  
                 <p style="margin-left: auto;"> <!-- Add some margin to push the text to the right of the image -->  
                     <p>  
@@ -80,7 +97,3 @@
     </div>   
 </body>   
 </html>
-
-<footer style="position: fixed; bottom: 0; right: 0; width: 200px; font-size: 12px;">  
-    leesin@623  
-</footer>
