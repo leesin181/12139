@@ -1,7 +1,8 @@
+
 <head>  
   <style>  
     body {  
-      background-color: lightyellow; /* 设置背景为浅黄色 */  
+      background-color: lightyellow;  
     }  
       
     .container {  
@@ -12,10 +13,10 @@
       
     ul {  
       list-style-type: none;  
-      margin: 0;  
+      margin: 0 auto; /* 将导航栏向左居中 */  
       padding: 0;  
       overflow: hidden;  
-      background-color: lightyellow; /* 设置背景为浅黄色 */  
+      background-color: lightyellow;  
     }  
       
     li {  
@@ -32,6 +33,18 @@
       
     li a:hover {  
       background-color: #ddd;  
+    }  
+      
+    .section-title {  
+      text-align: center; /* 将标题居中 */  
+    }  
+      
+    .service {  
+      display: flex; /* 将服务项目内的内容展开 */  
+      flex-direction: column; /* 垂直排列 */  
+      justify-content: center; /* 居中 */  
+      align-items: center; /* 垂直居中 */  
+      padding: 10px; /* 添加内边距 */  
     }  
   </style>  
   <title>Navigation Bar</title>  
@@ -80,8 +93,8 @@
     </div>    
   </div>    
   <img src="https://i.postimg.cc/9fF6xG2w/be087c67f0cbc85bca3326c1301f019.jpg" alt="alternatetext">   
-  <img src="https://i.postimg.cc/yd5C3Wwg/48f0dd228d1f2f56792ec5b0779611b.jpg" alt="alternatetext">   
-</body>   
+  <img src="https://i.postimg.cc/yd5C3Wwg/
+
 <footer style="position: fixed; bottom: 0; right: 0; width: 200px; font-size: 12px;">  
     leesin@623  
 </footer>
