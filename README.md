@@ -1,4 +1,4 @@
-</head>  
+
 <body>  
   <ul class="nav">  
     <li><a href="https://leesin181.github.io/12139/">page1</a></li>  
