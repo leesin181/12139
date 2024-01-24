@@ -66,6 +66,7 @@
         flex-direction: column;  
         justify-content: center;  
         padding-top: 50px; /* 添加适当的上边距，以使内容与导航栏保持距离 */  
+        text-align: center;
     }  
     .section-title {  
         margin-left: 50px; /* 添加适当的左外边距来移动字体 */  
