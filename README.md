@@ -19,18 +19,6 @@
         <li><a href="https://leesin181.github.io/12137/">page3</a></li>  
     </ul>  
 </body>
-<html>  
-<head>  
-  <title>Navigation Bar</title>  
-</head>  
-<body>  
-  <ul>  
-    <li><a href="https://leesin181.github.io/12139/">Page 1</a></li>  
-    <li><a href="https://leesin181.github.io/121310/">Page 2</a></li>  
-    <li><a href="https://leesin181.github.io/12137/">Page 3</a></li>  
-  </ul>  
-</body>  
-</html>  
 <div class="container">  
   <div class="section-title center">  
     <h2>Basic <strong>Profile</strong></h2>  
