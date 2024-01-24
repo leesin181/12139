@@ -1,46 +1,46 @@
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<head>
-    <style>
-        body {
-            background-color: #FAEBD7; /* 淡黄色背景 */
-            text-align: center; /* 标题居中 */
-        }
-        .nav {
-            text-align: center; /* 居中导航栏 */
-        }
-        .nav li {
-            display: inline-block;
-            margin: 0 10px;
-        }
-        .row{
-            text-align: center;  /* 文本居中 */
-        }
-    </style>
-</head>
-<body>
-<ul class="nav">
-    <li><a href="https://leesin181.github.io/12139/">page1</a></li>
-    <li><a href="https://leesin181.github.io/121310/">page2</a></li>
-    <li><a href="https://leesin181.github.io/12137/">page3</a></li>
-</ul>
-</body>
-<div class="container">
-    <div class="section-title center">
-        <h2>Basic <strong>Profile</strong></h2>
-        <hr>
-    </div>
-    <div class="space"></div>
-    <div class="row">
-        <div class="col-md-3 col-sm-6 service"> <i class="fa fa-laptop"></i>
-            <h4><strong>Personal Information</strong></h4>
-            <p>
-                English Name: leesin &nbsp;Gender: Male<br />
-                Age: 20 years old Nationality: China
-            </p>
+
+<head>  
+  <style>  
+    body {  
+      background-color: #FAEBD7; /* 淡黄色背景 */  
+      text-align: center;  
+    }  
+    .nav {  
+      text-align: center; /* 居中导航栏 */  
+    }  
+    .nav li {  
+      display: inline-block;  
+      margin: 0 10px;  
+    }  
+    .container {  
+      display: flex;  
+      flex-direction: column;  
+      justify-content: center;  
+      padding-top: 50px; /* 添加适当的上边距，以使内容与导航栏保持距离 */  
+    }  
+    .section-title, .row {  
+      text-align: center;  
+    }  
+  </style>  
+</head>  
+<body>  
+  <ul class="nav">  
+    <li><a href="https://leesin181.github.io/12139/">page1</a></li>  
+    <li><a href="https://leesin181.github.io/121310/">page2</a></li>  
+    <li><a href="https://leesin181.github.io/12137/">page3</a></li>  
+  </ul>  
+  <div class="container">  
+    <div class="section-title center">  
+      <h2>Basic <strong>Profile</strong></h2>  
+      <hr>  
+    </div>  
+    <div class="row">  
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-laptop"></i>  
+        <h4><strong>Personal Information</strong></h4>  
+        <p>  
+          English Name: leesin &nbsp;Gender: Male<br />  
+          Age: 20 years old Nationality: China  
+        </p>  
         </div>
         <div class="col-md-3 col-sm-6 service"> <i class="fa fa-code"></i>
             <h4><strong>Major and Education</strong></h4>
