@@ -3,6 +3,10 @@
     <style>  
         body {  
             background-color: #FAEBD7; /* 淡黄色背景 */  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            height: 100vh; /* 使容器占据整个视口高度 */  
         }  
         .nav {  
             text-align: center; /* 居中导航栏 */  
@@ -10,6 +14,20 @@
         .nav li {  
             display: inline-block;  
             margin: 0 10px;  
+        }  
+        .container {  
+            display: flex;  
+            flex-direction: column;  
+            justify-content: center;  
+            align-items: center;  
+        }  
+        .section-title {  
+            text-align: center;  
+        }  
+        .service {  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
         }  
     </style>  
 </head>  
@@ -63,3 +81,6 @@
   <img src="https://i.postimg.cc/9fF6xG2w/be087c67f0cbc85bca3326c1301f019.jpg" alt="alternatetext" style="width: 50%; height: auto;">  
   <img src="https://i.postimg.cc/yd5C3Wwg/48f0dd228d1f2f56792ec5b0779611b.jpg" alt="alternatetext" style="width: 50%; height: auto;">  
 </div>
+<footer style="position: fixed; bottom: 0; right: 0; width: 200px; font-size: 12px;">  
+    leesin@623  
+</footer>
