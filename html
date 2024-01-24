@@ -53,8 +53,8 @@
     </div>  
     <div class="col-md-3 col-sm-6 service"> <i class="fa fa-bullseye"></i>  
       <h4><strong>Contact Information</strong></h4>  
-      <p>WeChat: ********<br />  
-        Email: ********</p>  
+      <p>WeChat: 12334412<br />  
+        Email: 34231312@qq.com</p>  
     </div>  
   </div>  
 </div>  
