@@ -41,7 +41,7 @@
               <p>Graduation School: Ningbo City Vocational and Technical College<br />Hobbies: Basketball, listening to music</p>  
           </div>  
           <div class="col-md-3 col-sm-6 service"> <i class="fa fa-bullseye"></i>  
-              <h4><strong>Contact Information</strong></h4>WeChat: ********<br />Email: ********</p>  <!-- 注意这里应该是</p>" 而不是 </p>" -->  
+              <h4><strong>Contact Information</strong></h4>WeChat: ********<br />Email: ********</p>
           </div>    
       </div>    
   </div>    
