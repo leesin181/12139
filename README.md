@@ -47,31 +47,35 @@
   </footer>
   
   </body>
-  
-<head>  
+  <head>  
   <style>  
     body {  
-      background-color: #F8F9FA; /* GitHub主题的浅色背景 */  
-      color: #333333; /* 默认文本颜色 */  
-      text-align: center;  
+      background-color: #FAEBD7; /* 淡黄色背景 */  
+      margin: 0; /* 确保body没有额外的外边距 */  
+      height: 100vh; /* 使body占据整个视口高度 */  
+      display: flex; /* 使用Flexbox布局 */  
+      flex-direction: column; /* 列方向布局 */  
+      align-items: center; /* 水平居中所有子元素 */  
+      justify-content: center; /* 垂直居中所有子元素 */  
+      text-align: center; /* 文本居中 */  
     }  
     .nav {  
-      text-align: center; /* 居中导航栏 */  
+      list-style-type: none; /* 移除导航栏列表前的标记 */  
+      padding: 0; /* 移除导航栏列表的内边距 */  
     }  
     .nav li {  
       display: inline-block;  
       margin: 0 10px;  
     }  
     .container {  
-      display: flex;  
-      flex-direction: column;  
-      justify-content: center;  
-      padding-top: 50px; /* 添加适当的上边距，以使内容与导航栏保持距离 */  
-      text-align: center;  
+      max-width: 800px; /* 设置容器的最大宽度，以便在大屏幕上也能居中 */  
+      width: 100%; /* 确保容器在小屏幕上占据全部宽度 */  
     }  
     .section-title {  
-      margin-left: 50px; /* 添加适当的左外边距来移动字体 */  
+      /* 如果你仍然想要左外边距，可以保留这一行，但通常居中样式不需要额外的左外边距 */  
+      /* margin-left: 50px; */  
     }  
   </style>  
 </head>
+ 
 
