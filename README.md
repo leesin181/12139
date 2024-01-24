@@ -51,26 +51,27 @@
 <head>  
   <style>  
     body {  
-        background-color: #FAEBD7; /* 淡黄色背景 */  
-        text-align: center;  
+      background-color: #F8F9FA; /* GitHub主题的浅色背景 */  
+      color: #333333; /* 默认文本颜色 */  
+      text-align: center;  
     }  
     .nav {  
-        text-align: center; /* 居中导航栏 */  
+      text-align: center; /* 居中导航栏 */  
     }  
     .nav li {  
-        display: inline-block;  
-        margin: 0 10px;  
+      display: inline-block;  
+      margin: 0 10px;  
     }  
     .container {  
-        display: flex;  
-        flex-direction: column;  
-        justify-content: center;  
-        padding-top: 50px; /* 添加适当的上边距，以使内容与导航栏保持距离 */  
-        text-align: center;
+      display: flex;  
+      flex-direction: column;  
+      justify-content: center;  
+      padding-top: 50px; /* 添加适当的上边距，以使内容与导航栏保持距离 */  
+      text-align: center;  
     }  
     .section-title {  
-        margin-left: 100px; /* 添加适当的左外边距来移动字体 */  
+      margin-left: 50px; /* 添加适当的左外边距来移动字体 */  
     }  
-</style>
-</head>  
+  </style>  
+</head>
 
