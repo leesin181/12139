@@ -37,28 +37,28 @@
     </div>
     <div class="space"></div>
     <div class="row">
-        <div class="col-md-3 col-sm-6 service"> <i class="fa fa-laptop"></i>
+        <div class="col-md-3 col-sm-6 service"> 
             <h4><strong>Personal Information</strong></h4>
             <p>
                 English Name: leesin &nbsp;Gender: Male<br />
                 Age: 20 years old Nationality: China
             </p>
         </div>
-        <div class="col-md-3 col-sm-6 service"> <i class="fa fa-code"></i>
+        <div class="col-md-3 col-sm-6 service"> 
             <h4><strong>Major and Education</strong></h4>
             <p>
                 Major: Computer Application<br />
                 Education Level: College Degree<br />
             </p>
         </div>
-        <div class="col-md-3 col-sm-6 service"> <i class="fa fa-rocket"></i>
+        <div class="col-md-3 col-sm-6 service"> 
             <h4><strong>Graduation School</strong></h4>
             <p>
                 Graduation School: Ningbo City Vocational and Technical College<br />
                 Hobbies: Basketball, listening to music·
             </p>
         </div>
-        <div class="col-md-3 col-sm-6 service"> <i class="fa fa-bullseye"></i>
+        <div class="col-md-3 col-sm-6 service"> 
             <h4><strong>Contact Information</strong></h4>
             <p>WeChat: ********<br />
                 Email: ********</p>
