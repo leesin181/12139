@@ -1,0 +1,14 @@
+ body {
+            background-color: #FAEBD7; /* 淡黄色背景 */
+            text-align: center; /* 标题居中 */
+        }
+        .nav {
+            text-align: center; /* 居中导航栏 */
+        }
+        .nav li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .row{
+            text-align: center;  /* 文本居中 */
+        }
