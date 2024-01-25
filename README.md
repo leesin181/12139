@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="https://github.com/leesin181/12139/1.css">
 </head>
 <body>
 <head>
