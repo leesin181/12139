@@ -11,4 +11,5 @@ body {
 }
 .row{
     text-align: center;  /* 文本居中 */
+    position: relative;
 }
